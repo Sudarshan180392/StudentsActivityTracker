@@ -222,12 +222,13 @@ export default function LandingPage({ onGetStarted }) {
           <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
             Stop losing top ranks to institutes that leverage data. Give your mentors the tools they need to produce Toppers.
           </p>
-          <button 
-            onClick={onGetStarted}
-            className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-indigo-950 text-lg font-extrabold shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300"
+          <a 
+            href="https://wa.me/?text=I%20want%20to%20understand%20Students%20Activity%20Tracker%20for%20institutes!%20Can%20we%20discuss%3F"
+            target="_blank" rel="noopener noreferrer"
+            className="w-full sm:w-auto px-10 py-5 rounded-2xl bg-white text-indigo-950 text-center text-lg font-extrabold shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300 inline-block"
           >
             Claim Your Institute Profile Now
-          </button>
+          </a>
           <p className="mt-6 text-slate-400 text-sm">Join the elite club of data-driven academies.</p>
         </div>
       </section>
